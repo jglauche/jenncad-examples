@@ -23,6 +23,6 @@ class Anchor < Part
     res = res.moveai(:top_right)
 
 
-    res
+    res.color("SteelBlue")
   end
 end

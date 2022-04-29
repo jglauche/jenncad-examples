@@ -31,6 +31,10 @@ class JenncadExamples < Project
   def cube_move_origin
     CubeMoveOrigin.new(config)
   end
+
+  def rcube_move_origin
+    RcubeMoveOrigin.new(config)
+  end
   # jenncad-append-project-magic
 end
 
