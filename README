@@ -1,0 +1,13 @@
+Jenncad Examples
+
+This is an example project to show off features as well as finding regression issues
+
+To run, you will need to have ruby (>= 2.6.0) and gem jenncad installed via:
+
+# gem install jenncad --pre
+
+$ jenncad
+
+
+See https://github.com/jglauche/jenncad/
+License: LGPL 3.0
