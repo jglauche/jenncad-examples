@@ -39,6 +39,10 @@ class JenncadExamples < Project
   def cube_inner_anchors
     CubeInnerAnchors.new(config)
   end
+
+  def openscad_modifiers
+    OpenscadModifiers.new(config)
+  end
   # jenncad-append-project-magic
 end
 
