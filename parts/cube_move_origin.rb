@@ -7,7 +7,7 @@ class CubeMoveOrigin < Part
     @cyl_dist = 5
 
     # let's initialize an anchor to this class
-    set_anchor :meow, x: 30, y: 30
+    set_anchor :meow, x: 100, y: 0
   end
 
   def part

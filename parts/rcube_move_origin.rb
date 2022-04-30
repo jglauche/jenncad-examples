@@ -7,7 +7,7 @@ class RcubeMoveOrigin < Part
     @cyl_dist = 5
 
     # let's initialize an anchor to this class
-    set_anchor :meow, x: 30, y: 30
+    set_anchor :meow, x: 100, y: 0
   end
 
   # Note: this has the same behaviour as the normal cube version

@@ -35,6 +35,10 @@ class JenncadExamples < Project
   def rcube_move_origin
     RcubeMoveOrigin.new(config)
   end
+
+  def cube_inner_anchors
+    CubeInnerAnchors.new(config)
+  end
   # jenncad-append-project-magic
 end
 
