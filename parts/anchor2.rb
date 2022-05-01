@@ -5,7 +5,7 @@ class Anchor2 < Part
     @z = 5
 
     # you can specifiy other parts to include here
-    @anch = TestModule.new
+    @testmod = TestModule.new
   end
 
   def part
@@ -13,12 +13,12 @@ class Anchor2 < Part
     res = base.nc
 
     # start at the center point at the right corner
-    res += @anch.movea(:right, base)
+    res += @testmod.movea(:right, base)
 
-    # note that anch already is at position :right of achor base here, we don't need to repeat this.
-    res += @anch.movea(:bottom_right, @anch).color("OrangeRed")
+    # note that testmod already is at position :right of achor base here, we don't need to repeat this.
+    res += @testmod.movea(:bottom_right, @testmod).color("OrangeRed")
 
-    res += @anch.movea(:top_right, @anch).color("red")
+    res += @testmod.movea(:top_right, @testmod).color("red")
 
     res
   end
