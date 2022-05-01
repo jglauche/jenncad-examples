@@ -43,6 +43,14 @@ class JenncadExamples < Project
   def openscad_modifiers
     OpenscadModifiers.new(config)
   end
+
+  def anchor2
+    Anchor2.new(config)
+  end
+
+ # def test_module
+  #  TestModule.new(config)
+  #end
   # jenncad-append-project-magic
 end
 
