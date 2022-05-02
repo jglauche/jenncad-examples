@@ -24,12 +24,14 @@ class MoveChain < Part
     # Also works on inverted moves
     res += cube(x: @x, y: @y, z: @z).nc.movei(xy: 20).movei(y: 10, chain: true).color("yellow")
 
+    # Works after anchor moves
     res += cube(x: @x, y: @y, z: @z).nc.moveai(:top_left).movei(y: 10, chain: true).color("blue")
 
-#    res += cube(x: @x, y: @y, z: @z).nc.move(y: -50).movea(:top_left, chain: true).color("navi")
+    # Works on anchor moves
+    res += cube(x: @x, y: @y, z: @z).nc.move(y: -50).movea(:top_left, chain: true).color("navy")
 
-
-
+    # Works on inverted anchor moves
+    res += cube(x: @x, y: @y, z: @z).nc.move(x: -50).moveai(:top_left, chain: true).color("purple")
 
     res
   end
