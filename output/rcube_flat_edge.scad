@@ -8,7 +8,7 @@ module RcubeFlatEdge(){
                 translate([35, 15, 0])cylinder(d=5,h=5,$fn=64);
               }
 
-            translate([0, 10, 0])cube([40, 10.0, 5.0]);
+            translate([0, 10, 0])cube([40, 10, 5]);
           }
 
     translate([-20, -10, 5])color("orange")union()union(){
@@ -19,7 +19,7 @@ module RcubeFlatEdge(){
                 translate([35, 15, 0])cylinder(d=5,h=5,$fn=64);
               }
 
-            cube([40, 10.0, 5.0]);
+            cube([40, 10, 5]);
           }
 
     translate([-20, -10, 10])color("red")union()union(){
@@ -30,7 +30,7 @@ module RcubeFlatEdge(){
                 translate([35, 15, 0])cylinder(d=5,h=5,$fn=64);
               }
 
-            cube([20.0, 20, 5.0]);
+            cube([20, 20, 5]);
           }
 
     translate([-20, -10, 15])color("pink")union()union(){
@@ -41,7 +41,7 @@ module RcubeFlatEdge(){
                 translate([35, 15, 0])cylinder(d=5,h=5,$fn=64);
               }
 
-            translate([20, 0, 0])cube([20.0, 20, 5.0]);
+            translate([20, 0, 0])cube([20, 20, 5]);
           }
 
     translate([-20, -10, 20])color("purple")union()union(){
@@ -52,8 +52,8 @@ module RcubeFlatEdge(){
                 translate([35, 15, 0])cylinder(d=5,h=5,$fn=64);
               }
 
-            cube([20.0, 20, 5.0]);
-            cube([40, 10.0, 5.0]);
+            cube([20, 20, 5]);
+            cube([40, 10, 5]);
           }
 
     translate([0, -10, 25])color("blue")union()union(){
@@ -64,8 +64,8 @@ module RcubeFlatEdge(){
                 translate([35, 15, 0])cylinder(d=5,h=5,$fn=64);
               }
 
-            cube([20.0, 20, 5.0]);
-            cube([40, 10.0, 5.0]);
+            cube([20, 20, 5]);
+            cube([40, 10, 5]);
           }
 
   }

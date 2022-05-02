@@ -2,7 +2,7 @@ module Anchor(){
   translate([21, 11.65, 0])color("SteelBlue")difference(){
         translate([5, 5, 0])difference(){
             translate([-5, -5, 0])difference(){
-                translate([-21, -11.65, 0])cube([42, 23.3, 5.0]);
+                translate([-21, -11.65, 0])cube([42, 23.3, 5]);
                 translate([5, 5, -0.1])cylinder(d=3,h=5.2,$fn=64);
                 translate([-5, -5, -0.1])cylinder(d=3,h=5.2,$fn=64);
               }
