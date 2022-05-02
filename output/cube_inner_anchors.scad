@@ -18,7 +18,7 @@ module CubeInnerAnchors(){
       }
 
     translate([0, 0, 20])difference(){
-        translate([0, 0, 0])color("pink")cube([40, 40, 10.0]);
+        color("pink")cube([40, 40, 10.0]);
         translate([0, 0, -0.1])translate([5, 35, 0])color("MediumVioletRed")cylinder(d=3,h=10.2,$fn=64);
         translate([0, 0, -0.1])translate([35, 35, 0])color("MediumVioletRed")cylinder(d=3,h=10.2,$fn=64);
         translate([0, 0, -0.1])translate([5, 5, 0])color("MediumVioletRed")cylinder(d=3,h=10.2,$fn=64);
@@ -26,7 +26,7 @@ module CubeInnerAnchors(){
       }
 
     translate([0, 0, 30])difference(){
-        translate([0, 0, 0])color("purple")cube([40, 40, 10.0]);
+        color("purple")cube([40, 40, 10.0]);
         translate([0, 0, -0.1])translate([5, 35, 0])color("MediumVioletRed")cylinder(d=3,h=10.2,$fn=64);
         translate([0, 0, -0.1])translate([35, 35, 0])color("MediumVioletRed")cylinder(d=3,h=10.2,$fn=64);
         translate([0, 0, -0.1])translate([5, 5, 0])color("MediumVioletRed")cylinder(d=3,h=10.2,$fn=64);

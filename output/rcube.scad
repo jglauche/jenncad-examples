@@ -7,12 +7,12 @@ module Rcube(){
               translate([35, 15, 0])cylinder(d=5,h=5,$fn=64);
             }
 
-    translate([0, 0, 0])translate([0, 0, 5])color("orange")union()translate([2.5, 2.5, 0])hull(){
-                cylinder(d=5,h=5,$fn=64);
-                translate([35, 0, 0])cylinder(d=5,h=5,$fn=64);
-                translate([0, 15, 0])cylinder(d=5,h=5,$fn=64);
-                translate([35, 15, 0])cylinder(d=5,h=5,$fn=64);
-              }
+    translate([0, 0, 5])color("orange")union()translate([2.5, 2.5, 0])hull(){
+              cylinder(d=5,h=5,$fn=64);
+              translate([35, 0, 0])cylinder(d=5,h=5,$fn=64);
+              translate([0, 15, 0])cylinder(d=5,h=5,$fn=64);
+              translate([35, 15, 0])cylinder(d=5,h=5,$fn=64);
+            }
 
     translate([-20, 0, 0])translate([0, 0, 10])color("red")union()translate([2.5, 2.5, 0])hull(){
                 cylinder(d=5,h=5,$fn=64);
