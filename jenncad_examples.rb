@@ -51,6 +51,10 @@ class JenncadExamples < Project
  # def test_module
   #  TestModule.new(config)
   #end
+
+  def move_chain
+    MoveChain.new(config)
+  end
   # jenncad-append-project-magic
 end
 

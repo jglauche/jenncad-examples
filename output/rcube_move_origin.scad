@@ -8,7 +8,7 @@ module RcubeMoveOrigin(){
               translate([37, 18, 0])cylinder(d=5,h=2,$fn=64);
             }
 
-      translate([0, 0, -0.1])translate([5, -5, 0])translate([21, 23, 0])color("DarkOrchid")cylinder(d=3,h=2.2,$fn=64);
+      translate([26, 18, -0.1])color("DarkOrchid")cylinder(d=3,h=2.2,$fn=64);
     }
 
     translate([21, 23, 0])color("blue")union()translate([2.5, 2.5, 0])hull(){
@@ -32,13 +32,13 @@ module RcubeMoveOrigin(){
               translate([37, 18, 0])cylinder(d=5,h=2,$fn=64);
             }
 
-    translate([0, 0, -2])translate([-21, -11.5, 0])union(){
-          translate([-21, -11.5, 0])color("DarkOrchid")cube([42, 23, 2.0]);
-          translate([-21, -11.5, 0])color("DarkRed")cylinder(d=10,h=2,$fn=64);
-          translate([21, 11.5, 0])color("Red")cylinder(d=10,h=2,$fn=64);
-          translate([21, -11.5, 0])color("hotpink")cylinder(d=10,h=2,$fn=64);
-          translate([-21, 11.5, 0])color("mediumvioletred")cylinder(d=10,h=2,$fn=64);
-        }
+    translate([-21, -11.5, -2])union(){
+        translate([-21, -11.5, 0])color("DarkOrchid")cube([42, 23, 2.0]);
+        translate([-21, -11.5, 0])color("DarkRed")cylinder(d=10,h=2,$fn=64);
+        translate([21, 11.5, 0])color("Red")cylinder(d=10,h=2,$fn=64);
+        translate([21, -11.5, 0])color("hotpink")cylinder(d=10,h=2,$fn=64);
+        translate([-21, 11.5, 0])color("mediumvioletred")cylinder(d=10,h=2,$fn=64);
+      }
 
   }
 }
