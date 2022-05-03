@@ -48,12 +48,16 @@ class JenncadExamples < Project
     Anchor2.new(config)
   end
 
- # def test_module
-  #  TestModule.new(config)
-  #end
+  def coin_battery
+    CoinBattery.new(config)
+  end
 
   def move_chain
     MoveChain.new(config)
+  end
+
+  def part_union_move
+    PartUnionMove.new(config)
   end
   # jenncad-append-project-magic
 end
