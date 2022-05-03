@@ -12,19 +12,6 @@ module MultiplesOfExample(){
     translate([0, 0, 22.4])color("silver")CoinBattery();
     translate([0, 0, 25.6])color("silver")CoinBattery();
     translate([0, 0, 28.8])color("silver")CoinBattery();
-    color("teal")union(){
-        translate([-5, -5, 0])cube([10, 10, 10]);
-        translate([-5, -5, 11])cube([10, 10, 10]);
-        translate([-5, -5, 22])cube([10, 10, 10]);
-        translate([-5, -5, 33])cube([10, 10, 10]);
-        translate([-5, -5, 44])cube([10, 10, 10]);
-        translate([-5, -5, 55])cube([10, 10, 10]);
-        translate([-5, -5, 66])cube([10, 10, 10]);
-        translate([-5, -5, 77])cube([10, 10, 10]);
-        translate([-5, -5, 88])cube([10, 10, 10]);
-        translate([-5, -5, 99])cube([10, 10, 10]);
-      }
-
     color("orange")union(){
         translate([0, 0, 28.8])color("silver")CoinBattery();
         translate([0, 0, 33])color("silver")CoinBattery();
@@ -36,6 +23,17 @@ module MultiplesOfExample(){
         translate([0, 0, 58.2])color("silver")CoinBattery();
         translate([0, 0, 62.4])color("silver")CoinBattery();
         translate([0, 0, 66.6])color("silver")CoinBattery();
+      }
+
+    color("teal")union(){
+        translate([-5, -5, 0])cube([10, 10, 10]);
+        translate([-5, -5, 11])cube([10, 10, 10]);
+        translate([-5, -5, 22])cube([10, 10, 10]);
+        translate([-5, -5, 33])cube([10, 10, 10]);
+        translate([-5, -5, 44])cube([10, 10, 10]);
+        translate([-5, -5, 55])cube([10, 10, 10]);
+        translate([-5, -5, 66])cube([10, 10, 10]);
+        translate([-5, -5, 77])cube([10, 10, 10]);
       }
 
   }
