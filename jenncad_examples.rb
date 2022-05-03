@@ -59,6 +59,10 @@ class JenncadExamples < Project
   def part_union_move
     PartUnionMove.new(config)
   end
+
+  def multiples_of_example
+    MultiplesOfExample.new(config)
+  end
   # jenncad-append-project-magic
 end
 
