@@ -63,6 +63,10 @@ class JenncadExamples < Project
   def multiples_of_example
     MultiplesOfExample.new(config)
   end
+
+  def anchor_from_example
+    AnchorFromExample.new(config)
+  end
   # jenncad-append-project-magic
 end
 
