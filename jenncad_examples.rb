@@ -67,6 +67,10 @@ class JenncadExamples < Project
   def anchor_from_example
     AnchorFromExample.new(config)
   end
+
+  def multiples_of_example_slots
+    MultiplesOfExampleSlots.new(config)
+  end
   # jenncad-append-project-magic
 end
 
