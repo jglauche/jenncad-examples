@@ -71,6 +71,22 @@ class JenncadExamples < Project
   def multiples_of_example_slots
     MultiplesOfExampleSlots.new(config)
   end
+
+  def cut_example
+    CutExample.new(config)
+  end
+
+  def fan
+    Fan.new(config)
+  end
+
+  def cut_example2
+    CutExample2.new(config)
+  end
+
+  def polyhedron_example
+    PolyhedronExample.new(config)
+  end
   # jenncad-append-project-magic
 end
 
