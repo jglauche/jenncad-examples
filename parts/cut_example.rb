@@ -20,10 +20,6 @@ class CutExample < Part
 
 #    @battery.set_flag(:debug)
     b = @battery.rstlm.cut_to(:top_face, base)
-
-    #b.set_flag(:no_cache)
-
-    puts b.option(:margins)
     res -=b
 
     # NOTE: I want to have a feature that you can set cut faces to an object, i.e. a grid to a fan and have it cut to a specific length in any direction

@@ -87,6 +87,10 @@ class JenncadExamples < Project
   def polyhedron_example
     PolyhedronExample.new(config)
   end
+
+  def sqare_example
+    SqareExample.new(config)
+  end
   # jenncad-append-project-magic
 end
 
