@@ -8,7 +8,7 @@ module RcubeMoveOrigin(){
               translate([37, 18, 0])cylinder(d=5,h=2,$fn=64);
             }
 
-      translate([26, 18, -0.1])color("DarkOrchid")cylinder(d=3,h=2.2,$fn=64);
+      translate([26, 18, -0.1])color("gold")cylinder(d=3,h=2.2,$fn=64);
     }
 
     translate([21, 23, 0])color("blue")union()translate([2.5, 2.5, 0])hull(){

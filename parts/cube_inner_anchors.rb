@@ -41,11 +41,11 @@ class CubeInnerAnchors < Part
 
 
   def part
-    layer1 = base.color("hotpink")
+    layer1 = base
     # inner_anchors prefixes all of the normal sides with inner_
     layer1 -= cylinder(d: @d).movea(:inner_bottom, base)
 
-    layer2 = l2base.color("steelblue")
+    layer2 = l2base
     # We can iterate through all the corner names by special names
     #   inner_corners
     #   inner_sides
@@ -58,12 +58,12 @@ class CubeInnerAnchors < Part
     end
 
 
-    layer3 = base.nc.color("pink")
+    layer3 = base.nc
     base.inner_corners.each do |corner|
       layer3 -= cylinder(d: @d).movea(corner, base.nc)
     end
 
-    layer4 = base_adv.nc.color("purple")
+    layer4 = base_adv.nc
     base_adv.inner_corners.each do |corner|
       layer4 -= cylinder(d: @d).movea(corner, base_adv.nc)
     end
@@ -71,7 +71,7 @@ class CubeInnerAnchors < Part
       layer4 -= cylinder(d: @d2).movea(corner, base_adv.nc)
     end
 
-    layer5 = l5base.color("lightblue")
+    layer5 = l5base
     base_adv2.inner_corners.each do |corner|
       layer5 -= cylinder(d: @d).movea(corner, l5base)
     end
@@ -85,11 +85,11 @@ class CubeInnerAnchors < Part
 
 
     # Note: top_of is a early-ish anchor like functionality for Z heights, useful for eample if you break your part into layers, i.e. to make them print nicer/easier
-    res = layer1 +
-          layer2.top_of(layer1) +
-          layer3.top_of(layer2) +
-          layer4.top_of(layer3) +
-          layer5.top_of(layer4) +
+    res = layer1.color(:hotpink) +
+          layer2.top_of(layer1).color(:steelblue) +
+          layer3.top_of(layer2).color(:pink) +
+          layer4.top_of(layer3).color(:purple) +
+          layer5.top_of(layer4).color(:lightblue) +
     res
   end
 end

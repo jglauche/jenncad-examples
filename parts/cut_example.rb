@@ -28,6 +28,6 @@ class CutExample < Part
 
     # NOTE: I want to have a feature that you can set cut faces to an object, i.e. a grid to a fan and have it cut to a specific length in any direction
 
-    res
+    res.color(:teal)
   end
 end

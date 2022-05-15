@@ -14,7 +14,7 @@ class CubeMoveOrigin < Part
     base = cube(x: @x, y: @y, z: @z).nc.color("HotPink")
     res = base
     # you can specify an object that holds the anchor. If omitted, both current object and parent object are checked
-    res -= cylinder(d: @d).movea(:top, base).move(x: @cyl_dist, y: -@cyl_dist)
+    res -= cylinder(d: @d).movea(:top, base).move(x: @cyl_dist, y: -@cyl_dist).color("gold")
 
     res += cube(x: @x/2.0, y: @y, z: @z).nc.movea(:top, base).color("blue")
 

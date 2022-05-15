@@ -2,7 +2,7 @@ module CubeMoveOrigin(){
   union(){
     difference(){
       color("HotPink")cube([42, 23, 2]);
-      translate([26, 18, -0.1])color("HotPink")cylinder(d=3,h=2.2,$fn=64);
+      translate([26, 18, -0.1])color("gold")cylinder(d=3,h=2.2,$fn=64);
     }
 
     translate([21, 23, 0])color("blue")cube([21, 23, 2]);

@@ -8,6 +8,7 @@ class CutExample2 < Part
   end
 
   def part
-    cube(@opts)
+    # WIP
+    cube(@opts).color(:teal)
   end
 end
