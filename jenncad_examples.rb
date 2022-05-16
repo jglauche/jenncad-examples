@@ -91,6 +91,10 @@ class JenncadExamples < Project
   def sqare_example
     SqareExample.new(config)
   end
+
+  def extrude_example
+    ExtrudeExample.new(config)
+  end
   # jenncad-append-project-magic
 end
 
