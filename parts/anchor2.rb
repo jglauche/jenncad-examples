@@ -11,7 +11,6 @@ class Anchor2 < Part
   def part
     base = cube(x: @x, y: @y, z: @z).color("darkblue")
     res = base.nc
-
     # start at the center point at the right corner
     res += @testmod.movea(:right, base)
 
