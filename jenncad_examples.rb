@@ -95,6 +95,10 @@ class JenncadExamples < Project
   def extrude_example
     ExtrudeExample.new(config)
   end
+
+  def anchor3
+    Anchor3.new(config)
+  end
   # jenncad-append-project-magic
 end
 
