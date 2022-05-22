@@ -99,6 +99,10 @@ class JenncadExamples < Project
   def anchor3
     Anchor3.new(config)
   end
+
+  def print_orientation
+    PrintOrientation.new(config)
+  end
   # jenncad-append-project-magic
 end
 
