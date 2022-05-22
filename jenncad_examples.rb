@@ -103,6 +103,18 @@ class JenncadExamples < Project
   def print_orientation
     PrintOrientation.new(config)
   end
+
+  def slot_example
+    SlotExample.new(config)
+  end
+
+  def slot_example2
+    SlotExample2.new(config)
+  end
+
+  def slot_example3
+    SlotExample3.new(config)
+  end
   # jenncad-append-project-magic
 end
 
