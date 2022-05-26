@@ -115,6 +115,26 @@ class JenncadExamples < Project
   def slot_example3
     SlotExample3.new(config)
   end
+
+  def flip_feature
+    FlipFeature.new(config)
+  end
+
+  def flip_test_square
+    FlipTestSquare.new(config)
+  end
+
+  def flip_test_cube
+    FlipTestCube.new(config)
+  end
+
+  def flip_test_rcube
+    FlipTestRcube.new(config)
+  end
+
+  def flip_test_cyl
+    FlipTestCyl.new(config)
+  end
   # jenncad-append-project-magic
 end
 
